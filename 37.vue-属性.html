@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script src="vue.js"></script>
+    <script>
+        window.onload=function(){
+            new Vue({
+                el:'#box',
+                data:{
+                    url:'vue1.png',
+                    w:'200px',
+                    t:'这是一张美丽的图片'
+                },
+                methods:{
+                }
+            });
+        };
+    </script>
+</head>
+<body>
+    <div id="box">
+        <!--<img src="{{url}}" alt="">-->
+        <img :src="url" alt="" :width="w" :title="t">
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

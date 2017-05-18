@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script src="vue.js"></script>
+    <script>
+        window.onload=function(){
+            new Vue({
+                el:'#box',
+                data:{
+                    url:'vue1.png'
+                },
+                methods:{
+                }
+            });
+        };
+    </script>
+</head>
+<body>
+    <div id="box">
+        <!--<img src="{{url}}" alt="">-->
+        <img :src="url" alt="">
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

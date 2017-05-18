@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script src="vue.js"></script>
+    <script>
+        window.onload=function(){
+            new Vue({
+                el:'#box',
+                data:{
+                    a:{
+                        color:'red',
+                        backgroundColor:'gray'
+                    }
+                },
+                methods:{
+                }
+            });
+        };
+    </script>
+</head>
+<body>
+    <div id="box">
+        <strong :style="a">文字...</strong>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

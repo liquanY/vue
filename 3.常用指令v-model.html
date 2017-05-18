@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script src="vue.js"></script>
+    <script>
+        window.onload=function(){
+            new Vue({
+                el:'#box',
+                data:{
+                    msg:'welcome vue'
+                }
+            });
+        };
+    </script>
+</head>
+<body>
+    <div id="box">
+        <input type="text" v-model="msg">
+        <br>
+        {{msg}}
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
